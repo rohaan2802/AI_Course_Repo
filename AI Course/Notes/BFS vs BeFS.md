@@ -1,0 +1,141 @@
+# BFS vs BeFS
+
+## Breadth-First Search vs Best-First Search
+
+- Basic Idea
+- Breadth-First Search (BFS)
+- Explores nodes level by level.
+- Expands all nodes at the current depth before moving to the next depth.
+- Uses a FIFo queue (First-In, First-Out).
+- Best-First Search (BeFS)
+- Explores the node that appears most promising according to a heuristic.
+- Chooses the next node based on an evaluation function.
+- Uses a Priority Queue.
+- How They Select the Next Node
+- Feature BFS Best-First Search
+- Selection rule Nodewithbestheuristicvalue
+- Shallowest node first
+- Data structure Queue
+- X No
+- Uses heuristic? Yes
+- Evaluation Function
+- BFS:
+- No evaluation function.
+- Just expands nodes in order of depth.
+- Best-First Search:
+- Uses an evaluation function like:
+- where:
+- . h(n) = estimated cost to reach the goal.
+- Example: Greedy Best-First Search selects the node closest to the goal based on heuristic.
+- Completeness & Optimality
+- Property BFS Best-First Search
+- Complete? Yes (finite graph)
+- Optimal? X Not guaranteed
+- Time Complexity Depends on heuristic
+- Space Complexity (pq)o
+- Where:
+- b = branching factor
+- · d = depth of solution
+- Example Intuition
+- Imagine searching for a treasure:
+- BFS:
+- Best-First Search:
+- Uses a map (heuristic) and always moves toward the place that looks closest to the treasure.
+- Key Difference in One Line
+- BFS searches systematically by depth.
+- Best-First Search searches intelligently using a heuristic.
+- If you'd like,
+
+## Best-First Search and A*
+
+- A* is a type of Best-First Search.
+- But here's the important detail:
+- Best-First Search is a general strategy
+- It means:
+- Always expand the node with the "best" evaluation value.
+- The difference comes from how we define "best."
+- Greedy Best-First Search
+- Uses:
+- Only considers estimated distance to goal.
+- Fast, but not always optimal.
+- A* Search (a special type of Best-First Search)
+- Uses:
+- Where:
+- g(n) = actual cost from start to node
+- h(n) = estimated cost from node to goal
+- So A* considers:
+- Distance already traveled
+- Estimated distance remaining
+- That's why A* is more reliable and can be optimal (if heuristic is admissible).
+- Relationship Summary
+- Best-First Search (General ldea)
+- ↓ Greedy Best-First (uses only h(n)
+- L A* (uses g(n) + h(n)
+- Final Answer:
+- A* is a type of Best-First Search - but it is smarter because it uses both actual cost and heuristic cost.
+
+## Best-First Search: Solved Example
+
+- a clear example and step-by-step solving
+- What is Best-First Search?
+- Best-First Search is an informed search algorithm
+- It selects the next node based on a heuristic function:
+- Where:
+- h(n) = estimated cost from node to goal
+- It always expands the node with smallest h(n)
+- Uses a Priority Queue
+- This is usually called Greedy Best-First Search.
+- Example Problem
+- Suppose we have this graph:
+- Code
+- Edge Costs (ignored by Greedy Best-First):
+- Not important for selection  only heuristic matters.
+- Heuristic Values h(n):
+- Node
+- Node
+- Goal = G
+- Step-by-Step Solution
+- Step 1: Start at A
+- Open List (Priority Queue):
+- Code
+- Expand A
+- Add its children:
+- Code
+- Step 2: Choose node with smallest h(n)
+- Smallest = B(4)
+- Expand B
+- Add its children:
+- Code
+- Step 3: Choose smallest h(n)
+- Smallest = E(2)
+- Expand E
+- Add:
+- Code
+- Step 4: Choose smallest
+- Smallest = G(0)
+- Goal found!
+- Final Path Found
+- A→B→E→G
+- Important Observation
+- Notice something:
+- Best-First Search did not check path cost
+- That's why it is called Greedy.
+- Key Characteristics
+- Property Best-First Search
+- Uses heuristic Yes
+- Uses actual path cost
+- Optimal? X Not guaranteed
+- Complete?
+- Data structure Priority Queue
+- Why It Can Be Wrong
+- If heuristic is misleading, it may:
+- Choose wrong direction
+- Get stuck exploring deep paths
+- Miss shorter solutions
+- Very Important Concept
+- If we change evaluation to:
+- Then it becomes A*  which fixes this weakness.
+- Solve the same example using A*
+- Or give a numerical graph example with edge costs
+- Or explain how priority queue works internally
+
