@@ -1,0 +1,19 @@
+* text=auto
+*.md text
+*.html text
+*.css text
+*.js text
+*.txt text
+*.py text eol=lf
+*.ipynb text eol=lf
+*.csv text
+*.zip binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.mp4 binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary

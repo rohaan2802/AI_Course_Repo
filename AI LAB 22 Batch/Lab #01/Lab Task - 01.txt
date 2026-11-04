@@ -1,0 +1,21 @@
+1. Write a python program to make a list of your name, regno, cgpa and subjects (enter the most
+favorite subjects fist then less favorite and so on) you are studying in this semester in the list.
+Print your name and first two favorite subjects from the list.
+
+
+2. # # define a function that will take a list of numbers and will return  the average of the list
+# if average is greater than 50 then return the sum of the list otherwise return the product of the list
+
+3. You are given a 2 lists list1 = ['a','b','c','d'] and list2 = [1,2,3,4]. Use these lists to create a dictionary such that the items 
+in list1 are the keys and the items in list2 are the value in the new dictionary. 
+
+4. Create a class having three function deposit, withdraw and display balance. 
+Call deposit functionn through class object pass the deposited amount as argument, 
+and withdraw money if have required balance and display will print the current avilable balanace in account.
+
+
+5. Create a class called "Rizz" that will have a "rizz-level" member variable. 
+You will inherit this class into two classes "W_Rizz" and "L_Rizz". W_Rizz and L_Rizz will have a function called "sigmaCalculator" 
+that will calculate the sigma values for each class. The "sigmaCalculator" will add a random positive number to the rizz-level in W_Rizz
+and do the opposite in L_Rizz. 
+

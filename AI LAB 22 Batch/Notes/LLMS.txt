@@ -1,0 +1,83 @@
+https://youtu.be/UMipk76PhKw?si=JOFf8-O59ttTfDbG
+All lectures are available on this channel
+
+
+
+
+Hey everyone!
+
+I hope you enjoyed our session and learned something new today. I wanted to share a really interesting article along with three YouTube videos that I think you'll find super useful.
+
+Why not spend about two hours diving into these resources? Take your time to really absorb the content, and it would be awesome if you could jot down some detailed notes on what you learn.
+
+Here are the links:
+
+YouTube Videos:
+1. https://youtu.be/z-TeST6LnOk?si=QINRQCJ6XUdWLCxm
+2. https://youtu.be/H_XMqRhLhic?si=A1-2oNpL4U3wjCsj
+3. https://youtu.be/3yAoITAXKis?si=Q8AHek4soAVCHjHn
+
+Article:
+- https://paulgraham.com/startupideas.html
+
+I really believe these will offer you some great insights, and I'd love to see your notes once you're done. Let’s learn and grow together!
+
+Happy exploring!
+
+
+
+========================================
+
+
+I’d really appreciate your support for my project, which is in the running for the Public Choice Award. 
+Please take a moment to check it out and vote for it here: https://devpost.com/software/cybersaga
+
+If you could also like and vote on project and share it with just three people, it would mean the world to me. With a little bit of help, we can quickly cross 150 votes!
+Your support will not only boost the project but also help our community and Pakistan shine.
+
+Thank you so much for your help and for believing in this journey!
+
+
+==============================================
+
+
+
+New Week, New Topics, New Learning🙌🏻
+
+So folks, Our Langchain series lectures were going on and from today we will start our lecture 4 of this course.
+
+In this week lectures , you will learn complete langchain along with a hands on project and then this week you will get tasks as well which you have to submit only then you will be eligible for certificate .
+
+Link for class registration: https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-management-and-technology-lahore-pakistan-presents-lecture-4-building-chains-in-langchain/
+
+Note: This is the only link where first you will register for the class and then 9:45 pm onwards you will be able to join the class as well by clicking on same link.
+There's no other meet or zoom link for classes...
+
+
+
+
+
+
+
+Lecture 5: Advanced LangChain: Agents and Memory
+
+Today's Lecture registration link: 
+https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-management-and-technology-lahore-pakistan-presents-lecture-5-advanced-langchain-agents-and-memory/
+
+
+
+Lecture 3 and 4 Notebook:
+https://colab.research.google.com/drive/1NXCv_y_hVsS1Uz7VvsqUio09Myp_Ndf2?usp=sharing
+
+Lecture 5: Memory and Agents in Langchain Notebook:
+https://colab.research.google.com/drive/12ZG5p2YmEt7mpZYzOVnQGexablrMtHcr?usp=sharing
+
+
+Make sure to practice now as we will do one project in tomorrow's lecture.
+
+
+
+Lecture 4 Recording is available now to watch
+https://youtu.be/QzNK-MnimqQ?si=q1y4RleOK_3_KcYu
+
+Notebook: https://colab.research.google.com/drive/1NXCv_y_hVsS1Uz7VvsqUio09Myp_Ndf2?usp=sharing

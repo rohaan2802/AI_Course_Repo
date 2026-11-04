@@ -1,0 +1,110 @@
+Stochastic Battlefield - Results
+=============================================
+
+Final Scores:
+Agent A: 42
+Agent B: 87
+Agent C: 111
+Winner: Agent C
+
+Per-Move Node Report:
+Round 01 | Agent A | Explored=   248 | Pruned=     0 | move U0->(0, 1); move U1->(0, 1); move U2->(2, 0)
+Round 01 | Agent B | Explored=   216 | Pruned=     0 | move U0->(6, 0); move U1->(7, 1)
+Round 01 | Agent C | Explored=     8 | Pruned=     0 | move U0->(4, 7); move U1->(4, 7)
+Round 02 | Agent A | Explored=   248 | Pruned=     0 | move U0->(0, 2); fortify U1->(1, 0); move U2->(3, 0)
+Round 02 | Agent B | Explored=   216 | Pruned=     0 | move U0->(5, 0); move U1->(6, 1)
+Round 02 | Agent C | Explored=     8 | Pruned=     0 | move U0->(4, 6); move U1->(2, 7); move U2->(6, 7)
+Round 03 | Agent A | Explored=   248 | Pruned=     0 | move U0->(1, 2); move U1->(0, 1)
+Round 03 | Agent B | Explored=   216 | Pruned=     0 | move U0->(4, 0); move U1->(5, 1)
+Round 03 | Agent C | Explored=     8 | Pruned=     0 | move U0->(3, 6); move U1->(1, 7); move U2->(7, 7)
+Round 04 | Agent A | Explored=   248 | Pruned=     0 | move U0->(2, 2); fortify U1->(0, 2)
+Round 04 | Agent B | Explored=   216 | Pruned=     0 | move U0->(3, 0); move U1->(4, 1)
+Round 04 | Agent C | Explored=     8 | Pruned=     0 | move U0->(2, 6); move U1->(0, 7)
+Round 05 | Agent A | Explored=   424 | Pruned=     0 | move U0->(2, 3); fortify U1->(0, 2); move U2->(3, 3)
+Round 05 | Agent B | Explored=   216 | Pruned=     0 | move_attack U0->(2, 0); move U1->(3, 1)
+Round 05 | Agent C | Explored=     8 | Pruned=     0 | move U0->(1, 6); move U1->(0, 6)
+Round 06 | Agent A | Explored=   344 | Pruned=     0 | move U0->(2, 4); fortify U1->(0, 0); move U2->(4, 3)
+Round 06 | Agent B | Explored=   216 | Pruned=     0 | move_attack U0->(1, 0); move_attack U1->(3, 2)
+Round 06 | Agent C | Explored=     8 | Pruned=     0 | move U0->(1, 5); move U1->(0, 5)
+Round 07 | Agent A | Explored=   336 | Pruned=     0 | move U0->(3, 4); fortify U1->(0, 0)
+Round 07 | Agent B | Explored=   216 | Pruned=     0 | move_attack U0->(0, 0); move_attack U1->(2, 2)
+Round 07 | Agent C | Explored=     8 | Pruned=     0 | move U0->(2, 5); move U1->(0, 4)
+Round 08 | Agent B | Explored=   216 | Pruned=     0 | move_attack U0->(0, 0); move_attack U1->(1, 2)
+Round 08 | Agent C | Explored=     8 | Pruned=     0 | move_attack U0->(2, 4); move U1->(1, 4)
+Round 09 | Agent B | Explored=   216 | Pruned=     0 | move U0->(0, 0); move_attack U1->(0, 2); move U2->(1, 0)
+Round 09 | Agent C | Explored=     8 | Pruned=     0 | move_attack U0->(2, 4); move_attack U1->(2, 4)
+
+Average Node and Pruning Summary:
+Agent A: avg_nodes=299.43, avg_pruning_efficiency=0.000
+Agent B: avg_nodes=216.00, avg_pruning_efficiency=0.000
+Agent C: avg_nodes=8.00, avg_pruning_efficiency=0.000
+
+Depth Impact Analysis (Agent A depth 5 vs 7 across 5 runs):
+AgentA_avg_score_depth5: 0.000
+AgentA_avg_score_depth7: 0.000
+
+Stochasticity Impact Analysis (5 deterministic vs 5 stochastic):
+AgentA_avg_deterministic: 0.000
+AgentA_avg_stochastic: 0.000
+AgentB_avg_deterministic: 0.000
+AgentB_avg_stochastic: 0.000
+AgentC_avg_deterministic: 0.000
+AgentC_avg_stochastic: 0.000
+
+Detailed Play Log:
+
+=== Round 1 ===
+Environment: Reinforcement given to Agent A.
+Agent A move: move U0->(0, 1); move U1->(0, 1); move U2->(2, 0) | nodes explored=248, pruned=0
+Agent B move: move U0->(6, 0); move U1->(7, 1) | nodes explored=216, pruned=0
+Agent C move: move U0->(4, 7); move U1->(4, 7) | nodes explored=8, pruned=0
+
+=== Round 2 ===
+Environment: Reinforcement given to Agent C.
+Agent A move: move U0->(0, 2); fortify U1->(1, 0); move U2->(3, 0) | nodes explored=248, pruned=0
+Agent B move: move U0->(5, 0); move U1->(6, 1) | nodes explored=216, pruned=0
+Agent C move: move U0->(4, 6); move U1->(2, 7); move U2->(6, 7) | nodes explored=8, pruned=0
+
+=== Round 3 ===
+Environment: Earthquake hit (0,1).
+Agent A move: move U0->(1, 2); move U1->(0, 1) | nodes explored=248, pruned=0
+Agent B move: move U0->(4, 0); move U1->(5, 1) | nodes explored=216, pruned=0
+Agent C move: move U0->(3, 6); move U1->(1, 7); move U2->(7, 7) | nodes explored=8, pruned=0
+
+=== Round 4 ===
+Environment: Earthquake hit (3,0).
+Agent A move: move U0->(2, 2); fortify U1->(0, 2) | nodes explored=248, pruned=0
+Agent B move: move U0->(3, 0); move U1->(4, 1) | nodes explored=216, pruned=0
+Agent C move: move U0->(2, 6); move U1->(0, 7) | nodes explored=8, pruned=0
+
+=== Round 5 ===
+Environment: Reinforcement given to Agent A.
+Mine event: Agent A lost 3 energy at (2,3).
+Agent A move: move U0->(2, 3); fortify U1->(0, 2); move U2->(3, 3) | nodes explored=424, pruned=0
+Agent B move: move_attack U0->(2, 0); move U1->(3, 1) | nodes explored=216, pruned=0
+Agent C move: move U0->(1, 6); move U1->(0, 6) | nodes explored=8, pruned=0
+
+=== Round 6 ===
+Environment: Earthquake hit (4,1).
+Agent A move: move U0->(2, 4); fortify U1->(0, 0); move U2->(4, 3) | nodes explored=344, pruned=0
+Agent B move: move_attack U0->(1, 0); move_attack U1->(3, 2) | nodes explored=216, pruned=0
+Agent C move: move U0->(1, 5); move U1->(0, 5) | nodes explored=8, pruned=0
+
+=== Round 7 ===
+Environment: Supply Drop at (5,3).
+Agent A move: move U0->(3, 4); fortify U1->(0, 0) | nodes explored=336, pruned=0
+Elimination: Agent A eliminated.
+Agent B move: move_attack U0->(0, 0); move_attack U1->(2, 2) | nodes explored=216, pruned=0
+Agent C move: move U0->(2, 5); move U1->(0, 4) | nodes explored=8, pruned=0
+
+=== Round 8 ===
+Environment: Earthquake hit (0,2).
+Agent B move: move_attack U0->(0, 0); move_attack U1->(1, 2) | nodes explored=216, pruned=0
+Agent C move: move_attack U0->(2, 4); move U1->(1, 4) | nodes explored=8, pruned=0
+
+=== Round 9 ===
+Environment: Reinforcement given to Agent B.
+Agent B move: move U0->(0, 0); move_attack U1->(0, 2); move U2->(1, 0) | nodes explored=216, pruned=0
+Elimination: Agent B eliminated.
+Agent C move: move_attack U0->(2, 4); move_attack U1->(2, 4) | nodes explored=8, pruned=0
+Elimination: Agent C eliminated.

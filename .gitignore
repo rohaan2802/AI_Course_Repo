@@ -1,0 +1,16 @@
+# Office lock and temp files
+~$*
+*.tmp
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*:Zone.Identifier
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
